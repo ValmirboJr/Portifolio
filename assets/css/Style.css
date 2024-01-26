@@ -473,3 +473,58 @@ header span {
     border-color: transparent; 
   }
 }
+@media only screen and (max-width: 768px) {
+  header {
+    padding-left: 2rem;
+    padding-top: 8rem;
+  }
+
+  .nomeani {
+    width: 100%;
+  }
+
+  #secao-apresentacao {
+    flex-direction: column;
+    padding: 3rem;
+  }
+
+  #secao-apresentacao img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-bottom: 1rem;
+  }
+
+  .conhecimentos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .conhecimento {
+    grid-column: auto;
+    grid-row: auto;
+    margin-bottom: 1rem;
+  }
+
+  .conhecimentos-img-wrapper {
+    display: none;
+  }
+
+  .projetos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .contato-wrapper {
+    width: 100%;
+    height: auto;
+  }
+
+  .contato-left, .contato-right {
+    width: 100%;
+  }
+}
