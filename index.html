@@ -4,19 +4,172 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
-<link rel="stylesheet" href="./assets/css/Style.css">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-rmRAlyB/4L8e6Uz5qUdIQCbpjJS9ihew4gt4Zc4JBGOuP3iZU5G7KsCmyDCAovrH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="manifest" href="/site.webmanifest"/>
+    <script src="./js/menu" defer></script>
 </head>
-
 <body>
+    <header id="home">
+      <ul class="menu">
+        <li><a href="#" class="menu-btn">Home</a></li>
+        <li><a href="#secao-apresentacao" class="menu-btn">Sobre</a></li>
+        <li><a href="#conhecimentos" class="menu-btn">Conhecimentos</a></li>
+        <li><a href="#projetos" class="menu-btn">Projetos</a></li>
+        <li><a href="#contato" class="menu-btn">Contatos</a></li>
+    </ul>
+    <h1 class="nomeani">Valmir Borges de Oliveira Junior</h1>
+    <span class="nomeani">Desenvolvedor Front-end e Back-end</span>
+    <a href="#secao-apresentacao" class="botao" >Saiba mais</a>
+   </header>
 
-    <header>
-        
-        <h1>Valmir Borges de Oliveira Junior</h1>
-        <span>Developer web e Mobile</span>
-        <a href="#" class = "botao"> Saiba mais</a>
-    </header>
-
+   <section id="secao-apresentacao">
+    <img src="assets/css/imagens/Valmir img.jpeg" alt="foto do programador">
+    <div>
+        <h2>Programador <a href="https://www.linkedin.com/in/valmirborgesoliveirajr/"><i class="fab fa-linkedin"></i></a></h2>
+        <p>Meu interesse pela área da tecnologia cresceu muito após meus amigos me apresentarem o quão magico é fazer sistemas e construir grandes sites muito bem feitos. Foi ai que em 2023 eu ingressei na faculdade
+          de Analise e Desenvolvimento de Sistemas, após muitos códigos e muitos projetos a área do Front-end me interessou muito e com isso grandes projetos pessoais surgiram. <br> </p>
+        <a href="#projetos" class="botaop">Ver projetos</a>
+        <a href="assets/css/arquivos/Valmir Estagio.pdf" download="valmir Estagio.pdf" type="application/pdf" class="botaop">
+          <i class="fas fa-download"></i> Curriculo
+        </a>        
+    </div>    
+   </section>
+   <section class="sessao-conhecimentos" id="conhecimentos">
+    <div class="sessao-header">
+      <h1>Conhecimentos</h1>
+    </div>
+    <div class="conhecimentos">
+      <div class="conhecimento">
+        <div class="conhecimento-header">
+          <i class="fab fa-html5"></i>
+          <h3>HTML</h3>
+        </div>
+        <div class="conhecimento-text">
+          <p>Tenho um conhecimento intermediario em html</p>
+        </div>
+      </div>
+      <div class="conhecimento">
+        <div class="conhecimento-header">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS</h3>
+        </div>
+        <div class="conhecimento-text">
+          <p>Tenho um conhecimento intermediario em css.</p>
+        </div>
+      </div>
+      <div class="conhecimento">
+        <div class="conhecimento-header">
+          <i class="fas fa-pencil-alt"></i>
+          <h3>Design</h3>
+        </div>
+        <div class="conhecimento-text">
+          <p>Tenho um conhecimento em desing, mas não utilizo muitas ferras para desing apenas canva e figma</p>
+        </div>
+      </div>
+      <div class="conhecimento">
+        <div class="conhecimento-header">
+          <i class="fab fa-js"></i>
+          <h3>Javascript</h3>
+        </div>
+        <div class="conhecimento-text">
+          <p>Possuo um conhecimento basico em Javascript, mas estou buscando mais conhecimento 
+          </p>
+        </div>
+      </div>
+      <div class="conhecimento">
+        <div class="conhecimento-header">
+          <i class="fab fa-bootstrap"></i>
+          <h3>Boostrap</h3>
+        </div>
+        <div class="conhecimento-text">
+          <p>Utilizei poucas vezes, mas conheço bastante o framework</p>
+        </div>
+      </div>
+      <div class="conhecimento">
+        <div class="conhecimento-header">
+          <i class="fab fa-github"></i>
+          <h3>Git e GitHub</h3>
+        </div>
+        <div class="conhecimento-text">
+          <p>Tenho conhecimento basico, pois como não tenho muita experiência na aréa para mexer mais a fundo nas duas tecnologias</p>
+        </div>
+      </div>
+      <div class="conhecimentos-img-wrapper">
+        <img src="assets/css/imagens/conhecimentos.png" alt="imagem conhecimento    ">
+      </div>
+    </div>
+  </section>
+  <section id="secao-projetos">
+  <div class="secao-projetos" id="projetos">
+    <div class="sessao-header">
+      <h1>Projetos</h1>
+    </div>
+    <div class="projetos">
+      <div class="card">
+        <div class="card-img-wrapper">
+          <img src="assets/css/imagens/Crud.png" alt="imagem do projeto Crud" />
+        </div>
+        <div class="card-info">
+          <h2>Loja de Calçados</h2>
+          <h3>Java,Mysql</h3>
+          <p>Crud Feito com Java Swing com Integração com Banco De Dados MySQL</p>
+          <button class="btn">Ver Projeto</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img-wrapper">
+          <img src="assets/css/imagens/imobiliaria.jpg" alt="imagem do projeto imobiliaria" />
+        </div>
+        <div class="card-info">
+          <h2>Imobiliaria</h2>
+          <h3>HTML,CSS e Javascript</h3>
+          <p>Imobiliaria feita com html,css e javascript com cadastro de usuario e login para o mesmo</p>
+          <button class="btn">Ver Projeto</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img-wrapper">
+          <img src="assets/css/imagens/Projetos.jpg" alt="imagem do projeto Netflix" />
+        </div>
+        <div class="card-info">
+          <h2>Netflix</h2>
+          <h3>HTML,Css e Javascript</h3>
+          <p>Um Modelo Quase identico a Netflix</p>
+          <button class="btn">Ver Projeto</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sessao-contato" id="contato">
+    <div class="contato-wrapper">
+        <div class="contato-left"></div>
+        <div class="contato-right">
+            <h1>Contato</h1>
+            <form>
+                <div class="input-group">
+                    <input type="text" class="field" id="nome">
+                    <label for="nome" class="field-label">Nome</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" class="field" id="email">
+                    <label for="email" class="field-label">Email</label>
+                </div>
+                <div class="input-group">
+                    <textarea class="field" id="mensagem" ></textarea>
+                    <label for="mensagem" class="field-label">Mensagem</label>
+                </div>
+                <button type="submit" class="btn btn-submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</section>
+<footer>
+  <div class="footer-content">
+      <p>
+          Copyright &copy; 2024, Valmir - Todos direitos reservados.
+      </p>
 </body>
-
 </html>
